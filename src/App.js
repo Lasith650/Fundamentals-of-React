@@ -14,7 +14,8 @@ function App() {
         <button>Submit</button>
        </Greet>
        <Greet name="Jayalath" heroName="White"/>
-       <Welcome/>
+       <Welcome name="Kasun"/>
+       <Welcome name="Perera"/>
     </div>
   );
 }
