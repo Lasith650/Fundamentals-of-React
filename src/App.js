@@ -3,7 +3,8 @@ import React from 'react';
 import './App.css';
 //import Greet from './components/Greet';
 //import Welcome from './components/Welcome';
-import Message from './components/Message';
+//import Message from './components/Message';
+import Count from './components/Count';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
        <Greet name="Jayalath" heroName="White"/>
        <Welcome name="Kasun"/>
        <Welcome name="Perera"/> */}
-       <Message/>
+       {/* <Message/> */}
+       <Count/>
     </div>
   );
 }
