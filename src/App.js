@@ -6,6 +6,7 @@ import './App.css';
 //import Message from './components/Message';
 //import Count from './components/Count';
 import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
        {/* <Message/> */}
        {/* <Count/> */}
        <FunctionClick/>
+       <ClassClick/>
     </div>
   );
 }
