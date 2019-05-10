@@ -2,9 +2,10 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 //import Greet from './components/Greet';
-import Welcome from './components/Welcome';
+//import Welcome from './components/Welcome';
 //import Message from './components/Message';
 //import Count from './components/Count';
+import FunctionClick from './components/FunctionClick';
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
        </Greet> */}
        {/* <Greet name="Jayalath" heroName="White"/> */}
        {/* <Welcome name="Kasun"/> */}
-       <Welcome name="Perera"/>
+       {/* <Welcome name="Perera"/> */}
        {/* <Message/> */}
        {/* <Count/> */}
+       <FunctionClick/>
     </div>
   );
 }
