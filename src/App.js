@@ -5,25 +5,27 @@ import './App.css';
 //import Welcome from './components/Welcome';
 //import Message from './components/Message';
 //import Count from './components/Count';
-import FunctionClick from './components/FunctionClick';
-import ClassClick from './components/ClassClick';
+//import FunctionClick from './components/FunctionClick';
+//import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
        {/* <Greet name="Lasith" heroName="Thaththa">
         <p>This is the Children</p>
-       </Greet>
-       <Greet name="Manaram" heroName="Amma">
-        <button>Submit</button>
        </Greet> */}
+       {/* <Greet name="Manaram" heroName="Amma">
+        <button>Submit</button> */}
+       {/* </Greet> */}
        {/* <Greet name="Jayalath" heroName="White"/> */}
        {/* <Welcome name="Kasun"/> */}
        {/* <Welcome name="Perera"/> */}
        {/* <Message/> */}
        {/* <Count/> */}
-       <FunctionClick/>
-       <ClassClick/>
+       {/* <FunctionClick/> */}
+       {/* <ClassClick/> */}
+       <EventBind/>
     </div>
   );
 }
